@@ -23,6 +23,17 @@
                     </div>
 
                 @endif
+                @if(session('error'))
+
+            <div class="alert alert-danger">
+
+                {{ session('error') }}
+
+            </div>
+
+            @endif
+
+            
                 <form method="GET" action="{{ route('bom.index') }}" class="mb-3">
 
                     <div class="row">

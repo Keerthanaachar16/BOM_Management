@@ -11,6 +11,7 @@ class BomHeader extends Model
         'bom_number',
         'version',
         'uploaded_file',
+        'original_file_name',
         'uploaded_at',
         'uploaded_by',
         'is_locked'

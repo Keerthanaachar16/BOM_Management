@@ -10,9 +10,10 @@
         "laravel/framework": "^11.31",
         "laravel/tinker": "^2.9",
         "maatwebsite/excel": "3.1.56",
-        "spatie/laravel-permission": "^6.25",
         "ext-gd": "*",
-        "ext-zip": "*"
+        "ext-zip": "*",
+        "spatie/laravel-permission": "^6.25"
+        
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
